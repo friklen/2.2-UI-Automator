@@ -43,5 +43,5 @@ jobs:
       uses: reactivecircus/android-emulator-runner@v2
       with:
         api-level: 29
-        emulator-boot-timeout: 600
+        emulator-boot-timeout: 1200
         script: ./gradlew connectedCheck
